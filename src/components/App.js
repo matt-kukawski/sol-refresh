@@ -1,66 +1,50 @@
 import React from 'react';
-import Particles from 'react-particles-js';
+import Particle from 'components/Particle';
+import Section from 'components/Section';
+
+// <Particle />
 
 function App() {
   return (
     <div className="App">
-      <Particles
-        params={{
-          "particles": {
-              "number": {
-                  "value": 160,
-                  "density": {
-                      "enable": false
-                  }
-              },
-              "size": {
-                  "value": 3,
-                  "random": true,
-                  "anim": {
-                      "speed": 4,
-                      "size_min": 0.3
-                  }
-              },
-              "color": {
-                "value": "#F2B632"
-              },
-              "line_linked": {
-                  "enable": false
-              },
-              "move": {
-                  "random": true,
-                  "speed": 1,
-                  "direction": "top",
-                  "out_mode": "out"
-              }
-          },
-          "interactivity": {
-              "events": {
-                  "onhover": {
-                      "enable": true,
-                      "mode": "bubble"
-                  },
-                  "onclick": {
-                      "enable": true,
-                      "mode": "repulse"
-                  }
-              },
-              "modes": {
-                  "bubble": {
-                      "distance": 250,
-                      "duration": 2,
-                      "size": 0,
-                      "opacity": 0
-                  },
-                  "repulse": {
-                      "distance": 400,
-                      "duration": 4
-                  }
-              }
-          }
-      }} />
+        <div>    
+            <h1 className="title">Bulma</h1>
+            <p className="subtitle">
+            Modern CSS framework based on{' '}
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">
+                Flexbox
+            </a>
+            </p>
+
+            <div className="field">
+            <div className="control">
+                <input className="input" type="text" placeholder="Input" />
+            </div>
+            </div>
+
+            <div className="field">
+            <p className="control">
+                <span className="select">
+                <select>
+                    <option>Select dropdown</option>
+                </select>
+                </span>
+            </p>
+            </div>
+
+            <div className="buttons">
+                <a className="button is-primary">Primary</a>
+                <a className="button is-link">Link</a>
+            </div>
+        </div>
+        <Section id="intro" title="Intro" className="section has-background-primary" />
+        <Section title="About" className="section has-background-primary"/>
+        <Section title="Portfolio" className="section has-background-primary"/>
+        <Section title="Contact" className="section has-background-primary"/>
     </div>
   );
 }
 
 export default App;
+
+
