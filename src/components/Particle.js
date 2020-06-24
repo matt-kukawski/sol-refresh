@@ -3,7 +3,6 @@ import Particles from 'react-particles-js';
 
 function Particle() {
   return (
-    <div className="App">
         <Particles
             params={{
                 "particles": {
@@ -16,14 +15,14 @@ function Particle() {
                     },
                     "line_linked": {
                         "enable": true,
-                        "opacity": 0.05
+                        "opacity": 0.5
                     },
                     "move": {
                         "direction": "right",
                         "speed": 0.5
                     },
                     "size": {
-                        "value": 1.5
+                        "value": 10
                     },
                     "color": {
                         "value": "#F2B632"
@@ -52,7 +51,6 @@ function Particle() {
                 "retina_detect": true
             }} 
         />
-    </div>
   );
 }
 

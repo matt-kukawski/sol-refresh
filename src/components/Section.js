@@ -1,14 +1,18 @@
 import React from 'react';
-import Particle from 'components/Particle';
 
 function Section(props) {
   return (
-    <section className="section">
-        <div className="container">
-            <h1 className="title">{props.title}</h1>
-            <h2 className="subtitle">
-                A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
+    <section id={props.id} className={props.sectionClass}>
+        <div className={props.divClass}>
+            <h1 className={props.h1Class}>{props.title}</h1>
+            <h2 className={props.h2Class}>
+                A simple container to divide your page into sections, like the one you're currently reading
             </h2>
+            <div className="notification has-background-warning">
+              <p className="is-size-5"> 
+                {props.text}
+              </p>
+            </div>
         </div>
     </section>
   );
