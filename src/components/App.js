@@ -1,15 +1,20 @@
 import React from 'react';
 import Particle from 'components/Particle';
 import Section from 'components/Section';
+import NavBar from 'components/NavBar';
+import {scrollStyleChange} from 'js/scrollStyleChange.js'
+// import {Helmet} from "react-helmet";
 
 // <Particle />
 
 function App() {
   return (
     <div className="App">
+
         <div id="particles-js">
             <Particle />
         </div>
+        <NavBar className="navbar" />
         <Section
             id="intro" 
             title="Intro"
@@ -20,6 +25,7 @@ function App() {
             text="This is some really awesome content"
         >
         </Section>
+        <div id="top-of-site-pixel-anchor" onLoad={scrollStyleChange()}></div>
         <Section
             id="about" 
             title="About"
@@ -29,15 +35,18 @@ function App() {
             h2Class="subtitle"
             text="This is ALSO some really awesome content"
         >
-        </Section>
+        </Section>  
     </div>
   );
 }
 
 export default App;
 
+// <Helmet>
+// <script type="text/javascript" src="sol-refresh/src/js/scrollStyleChange.js"></script>
+// </Helmet>
 
-
+// <script>try{scrollStyleChange.load({ async: true });}catch(e){}</script>
 
 
 // <Section title="About" className="section has-background-primary"/>
