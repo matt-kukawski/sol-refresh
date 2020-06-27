@@ -2,12 +2,8 @@ import React from 'react';
 
 function NavBar() {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav className="navbar is-fixed-top is-warning" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-            <a href="http://localhost:3000/" className="navbar-item" href="https://bulma.io">
-            <img alt="" src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
-            </a>
-
             <a href="http://localhost:3000/" role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -17,47 +13,24 @@ function NavBar() {
 
         <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-start">
-                <a href="http://localhost:3000/" className="navbar-item">
+                <a href="http://localhost:3000/#intro" className="navbar-item">
                     Home
                 </a>
-
-                <a href="http://localhost:3000/" className="navbar-item">
-                    Documentation
+                <a href="http://localhost:3000/#about" className="navbar-item">
+                    About
+                </a>
+                <a href="http://localhost:3000/#portfolio" className="navbar-item">
+                    Portfolio
                 </a>
 
-                <div className="navbar-item has-dropdown is-hoverable">
-                    <a href="http://localhost:3000/" className="navbar-link">
-                    More
-                    </a>
-
-                    <div className="navbar-dropdown">
-                        <a href="http://localhost:3000/" className="navbar-item">
-                            About
-                        </a>
-                        <a href="http://localhost:3000/" className="navbar-item">
-                            Jobs
-                        </a>
-                        <a href="http://localhost:3000/" className="navbar-item">
-                            Contact
-                        </a>
-                        <hr className="navbar-divider" />
-                        <a href="http://localhost:3000/" className="navbar-item">
-                            Report an issue
-                        </a>
-                    </div>
-                </div>
+                <a href="http://localhost:3000/#contact" className="navbar-item">
+                    Contact
+                </a>
             </div>
 
             <div className="navbar-end">
                 <div className="navbar-item">
-                    <div className="buttons">
-                    <a href="http://localhost:3000/" className="button is-primary">
-                        <strong>Sign up</strong>
-                    </a>
-                    <a href="http://localhost:3000/" className="button is-light">
-                        Log in
-                    </a>
-                    </div>
+ 
                 </div>
             </div>
         </div>

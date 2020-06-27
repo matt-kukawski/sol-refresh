@@ -6,12 +6,10 @@ function Section(props) {
         <div className={props.divClass}>
             <h1 className={props.h1Class}>{props.title}</h1>
             <h2 className={props.h2Class}>
-                A simple container to divide your page into sections, like the one you're currently reading
+                {props.h2Text}            
             </h2>
-            <div className="notification has-background-warning">
-              <p className="is-size-5"> 
-                {props.text}
-              </p>
+            <div className="section-content">
+                {props.sectionContent}
             </div>
         </div>
     </section>
