@@ -14,14 +14,14 @@
 //   z-index:-1
 // }
 
-#particles-js {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  z-index: -1;
-  background-color: $primary-purple;
-}
+// #particles-js {
+//   position: absolute;
+//   height: 100%;
+//   width: 100%;
+//   position: fixed;
+//   z-index: -1;
+//   background-color: $primary-purple;
+// }
 
 .center {
   display: flex;
@@ -75,6 +75,18 @@ $section-background-color: $purple;
 .container {
   // background-color: green;
   // height: 666px;
+}
+
+#intro {
+    background-image: url("../images/sun-spear_1920_rsz.png");
+    background-color: $primary;
+    background-size: cover;
+}
+
+.stock-back {
+  background-image: url("../images/stock-background_1920.jpg");
+  background-color: $primary;
+  background-size: cover;
 }
 
 

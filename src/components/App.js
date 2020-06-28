@@ -9,9 +9,6 @@ import NavBar from 'components/NavBar';
 function App() {
   return (
     <div className="App">
-        <div id="particles-js">
-            <Particle />
-        </div>
         <NavBar className="navbar" />
         <Section
             id="intro" 
@@ -26,7 +23,7 @@ function App() {
         <Section
             id="about" 
             title="About"
-            sectionClass="hero is-fullheight"
+            sectionClass="hero is-fullheight stock-back"
             divClass="hero-body center" 
             h1Class="title center has-text-warning"
             h2Class="subtitle center has-text-warning" 
@@ -40,7 +37,7 @@ function App() {
         <Section
           id="portfolio" 
           title="Portfolio"
-          sectionClass="hero is-fullheight"
+          sectionClass="hero is-fullheight stock-back"
           divClass="hero-body center"
           h1Class="title center has-text-warning"
           h2Class="subtitle center has-text-warning"
@@ -54,7 +51,7 @@ function App() {
         <Section
           id="contact" 
           title="Contact"
-          sectionClass="hero is-fullheight"
+          sectionClass="hero is-fullheight stock-back"
           divClass="hero-body center" 
           h1Class="title center has-text-warning"
           h2Class="subtitle center has-text-warning"
