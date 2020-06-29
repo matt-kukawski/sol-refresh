@@ -1,5 +1,5 @@
 import React from 'react';
-import Particle from 'components/Particle';
+import Particle from 'components/Tsparticles';
 import Section from 'components/Section';
 import Notification from 'components/Notification';
 import NavBar from 'components/NavBar';
@@ -9,67 +9,81 @@ import NavBar from 'components/NavBar';
 function App() {
   return (
     <div className="App">
-        <div id="particles-js">
-            <Particle />
-        </div>
         <NavBar className="navbar" />
-        <Section
-            id="intro" 
-            title="Matt Kukawski"
-            sectionClass="hero is-fullheight"
-            divClass="hero-body center" 
-            h1Class="title center has-text-warning"
-            h2Class="is-size-1 has-text-warning"
-            h2Text="Front End Developer"
-        >
-        </Section>
-        <Section
-            id="about" 
-            title="About"
-            sectionClass="hero is-fullheight"
-            divClass="hero-body center" 
-            h1Class="title center has-text-warning"
-            h2Class="subtitle center has-text-warning" 
-            sectionContent={
+        <div className="content-parent">
+          <div className="intro-container content-container">
+            <Particle particleClass="particle is-fullheight"/>
+          </div>
+          <div className="main-container content-container">
+            <Section
+              id="intro" 
+              title="MATT KUKAWSKI"
+              sectionClass="hero is-fullheight"
+              divClass="hero-body center" 
+              h1Class="title center has-text-warning"
+              h2Class="has-text-warning"
+              h2Text="Front End Developer"
+            >
+            </Section>
+            <Section
+              id="about" 
+              title="About"
+              sectionClass="hero is-fullheight stock-back"
+              divClass="hero-body center" 
+              h1Class="title center has-text-warning"
+              h2Class="subtitle center has-text-warning" 
+              sectionContent={
+                <Notification 
+                  text="This is ALSO some really awesome content"
+                />
+              }         
+            >
+            </Section>
+            <Section
+              id="portfolio" 
+              title="Portfolio"
+              sectionClass="hero is-fullheight stock-back"
+              divClass="hero-body center"
+              h1Class="title center has-text-warning"
+              h2Class="subtitle center has-text-warning"
+              sectionContent={
               <Notification 
                 text="This is ALSO some really awesome content"
               />
-            }         
-        >
-        </Section>  
-        <Section
-          id="portfolio" 
-          title="Portfolio"
-          sectionClass="hero is-fullheight"
-          divClass="hero-body center"
-          h1Class="title center has-text-warning"
-          h2Class="subtitle center has-text-warning"
-          sectionContent={
-            <Notification 
-              text="This is ALSO some really awesome content"
-            />
-          } 
-        >
-        </Section> 
-        <Section
-          id="contact" 
-          title="Contact"
-          sectionClass="hero is-fullheight"
-          divClass="hero-body center" 
-          h1Class="title center has-text-warning"
-          h2Class="subtitle center has-text-warning"
-          sectionContent={
-            <Notification 
-              text="This is ALSO some really awesome content"
-            />
-          } 
-        >
-        </Section>
+              } 
+            >
+            </Section>
+            <Section
+              id="contact" 
+              title="Contact"
+              sectionClass="hero is-fullheight stock-back"
+              divClass="hero-body center" 
+              h1Class="title center has-text-warning"
+              h2Class="subtitle center has-text-warning"
+              sectionContent={
+              <Notification 
+                text="This is ALSO some really awesome content"
+              />
+              } 
+              >
+            </Section> 
+          </div> 
+        </div>
     </div>
   );
 }
 
 export default App;
+
+
+
+
+ 
+
+
+
+
+
 
 // <div id="top-of-site-pixel-anchor" onLoad={scrollStyleChange()}></div>
 
