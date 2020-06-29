@@ -1,9 +1,9 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 
-function Particle() {
+function Particle(props) {
   return (
-        <Particles
+        <Particles className={props.particleClass}
             params={{
                 "particles": {
                     "number": {
@@ -15,14 +15,14 @@ function Particle() {
                     },
                     "line_linked": {
                         "enable": true,
-                        "opacity": 0.5
+                        "opacity": 0.1
                     },
                     "move": {
                         "direction": "right",
                         "speed": 0.5
                     },
                     "size": {
-                        "value": 10
+                        "value": 2
                     },
                     "color": {
                         "value": "#F2B632"
@@ -33,6 +33,16 @@ function Particle() {
                             "speed": 1,
                             "opacity_min": 0.05
                         }
+                    },
+                    "shape": {
+                        "type": "star",
+                        "stroke": {
+                           "width": 1,
+                           "color": "#252839"
+                        },
+                        // "polygon": {
+                        //    "nb_sides": 5
+                        // }
                     }
                 },
                 "interactivity": {

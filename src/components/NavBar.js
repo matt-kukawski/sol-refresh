@@ -1,17 +1,31 @@
 import React from 'react';
 
 function NavBar() {
+    const [isActive, setisActive] = React.useState(false);
+
   return (
     <nav className="navbar is-fixed-top is-warning" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-            <a href="http://localhost:3000/" role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <a
+            onClick={() => {
+              setisActive(!isActive);
+            }}
+            role="button"
+            className={`navbar-burger burger ${isActive ? "is-active" : ""}`}
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
-            </a>
+          </a>
         </div>
+        <div
+          id="navbarBasicExample"
+          className={`navbar-menu ${isActive ? "is-active" : ""}`} 
+        >
 
-        <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-start">
                 <a href="http://localhost:3000/#intro" className="navbar-item">
                     Home
