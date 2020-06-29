@@ -17,11 +17,11 @@ function App() {
           <div className="main-container content-container">
             <Section
               id="intro" 
-              title="Matt Kukawski"
-              sectionClass="hero is-fullheight stock-back"
+              title="MATT KUKAWSKI"
+              sectionClass="hero is-fullheight"
               divClass="hero-body center" 
               h1Class="title center has-text-warning"
-              h2Class="is-size-1 has-text-warning"
+              h2Class="has-text-warning"
               h2Text="Front End Developer"
             >
             </Section>

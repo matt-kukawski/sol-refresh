@@ -87,8 +87,8 @@ $beige-lighter: #eff0eb;
 // $family-sans-serif: 'Nunito', sans-serif;
 // $grey-dark: $brown;
 // $grey-light: $beige-light;
-$primary: #252839;
-$warning: #F2B632;
+$primary: #19446E;
+$warning: $primary-text;
 // $link: $pink;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
@@ -107,16 +107,28 @@ $input-shadow: none;
 }
 
 #intro {
-    background-image: url("../images/blue-planet_1920.jpg");
+    background-image: url("../images/../images/fractal-1433818_1920.jpg");
+    // background-image: url("../images/blue-planet_1920.jpg");
     // background-color: $primary;
     background-size: cover;
     // z-index: -1;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 0 0 3px $primary-shadow, 2px 5px 5px $primary-shadow, 2px 5px 5px $primary-shadow, 0 0 3px $primary-shadow;
+    h1 {
+      font-family: "ArgonRegular";
+      font-size: 96px;
+    }
+    h2 {
+      font-family: "ArgonRegular";
+      font-size: 72px;
+    }
 }
 
 .stock-back {
-  background-image: url("../images/stock-back-bw_1920.jpg");
+  background-image: url("../images/fractal-1433818_1920.jpg");
   // background-color: $primary;
   background-size: cover;
+  background-color: black;
   display: flex;
 }
 

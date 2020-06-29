@@ -4,14 +4,14 @@ function NavBar() {
     const [isActive, setisActive] = React.useState(false);
 
   return (
-    <nav className="navbar is-fixed-top is-warning" role="navigation" aria-label="main navigation">
+    <nav className="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a
             onClick={() => {
               setisActive(!isActive);
             }}
             role="button"
-            className={`navbar-burger burger ${isActive ? "is-active" : ""}`}
+            className={`navbar-burger burger is-primary ${isActive ? "is-active" : ""}`}
             aria-label="menu"
             aria-expanded="false"
             data-target="navbarBasicExample"
@@ -42,8 +42,8 @@ function NavBar() {
                 </a>
             </div>
 
-            <div className="navbar-end">
-                <div className="navbar-item">
+            <div className="navbar-end is-primary">
+                <div className="navbar-item is-primary">
  
                 </div>
             </div>

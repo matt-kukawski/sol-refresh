@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import 'styles/style.scss';
 import App from 'components/App';
 import * as serviceWorker from './serviceWorker';
+import 'fonts/star-jedi-font/argon-regular.otf';
 
 ReactDOM.render(
   <React.StrictMode>
