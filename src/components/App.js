@@ -1,5 +1,5 @@
 import React from 'react';
-import Particle from 'components/Particle';
+import Particle from 'components/Tsparticles';
 import Section from 'components/Section';
 import Notification from 'components/Notification';
 import NavBar from 'components/NavBar';
