@@ -14,15 +14,18 @@ function Contact() {
             h1Class="title center has-text-warning"
             h2Class="subtitle center has-text-warning"
             sectionContent={
-            <div>
+            <div className="contact-parent">
                 <Notification 
-                text="GitHub"
+                    notificationClass="notification has-background-warning contact"
+                    text="GitHub"
                 />
                 <Notification 
-                text="LinkedIn"
+                    notificationClass="notification has-background-warning contact"
+                    text="LinkedIn"
                 />
-                <Notification 
-                text="Email"
+                <Notification
+                    notificationClass="notification has-background-warning contact" 
+                    text="Email"
                 />
             </div>
             } 

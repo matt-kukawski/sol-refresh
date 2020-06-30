@@ -17,24 +17,28 @@ function Portfolio() {
             sectionContent={
                 <div>
                     <Notification
+                        notificationClass="notification has-background-warning"
                         child={<Project 
                             imgSrc={require('images/projects/mtg_deck_builder_940.png')} 
                     />}
                     >                        
                     </Notification>
                     <Notification
+                        notificationClass="notification has-background-warning"
                         child={<Project 
                             imgSrc={require('images/projects/streetshare-940.png')} 
                     />}
                     >                        
                     </Notification>
                     <Notification
+                        notificationClass="notification has-background-warning"
                         child={<Project 
                             imgSrc={require('images/projects/monstrous-mates-940.png')} 
                     />}
                     >                        
                     </Notification>
                     <Notification
+                        notificationClass="notification has-background-warning"
                         child={<Project 
                             imgSrc={require('images/projects/salicylate_checker_940.png')} 
                     />}

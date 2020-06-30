@@ -129,6 +129,16 @@ $input-shadow: none;
   display: flex;
 }
 
+.contact-parent {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    .contact {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
 
 @import '../../node_modules/bulma/sass/utilities/_all.sass';
 @import '../../node_modules/bulma/sass/base/_all.sass';

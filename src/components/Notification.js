@@ -2,7 +2,7 @@ import React from 'react';
 
 function Notification(props) {
   return (
-    <div className="notification has-background-warning">
+    <div className={props.notificationClass}>
         {props.child}    
         <p className="is-size-5"> 
             {props.text}
