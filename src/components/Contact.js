@@ -8,11 +8,12 @@ function Contact() {
     return (
         <Section
             id="contact" 
-            title="Contact"
+            title=""
             sectionClass="hero is-fullheight stock-back"
             divClass="hero-body center" 
             h1Class="title center has-text-warning"
             h2Class="subtitle center has-text-warning"
+            h2Text="Contact"
             sectionContent={
             <div className="contact-parent">
                 <Notification 

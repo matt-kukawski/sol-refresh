@@ -7,6 +7,11 @@ function Card(props) {
                 <div className="card-image">
                     <figure className="image is-4by3">
                     <img src={props.imgSrc} alt={props.altText} />
+                    <a href={props.destination}>
+                        <div class="middle">
+                            <h2 class="text">LEARN MORE</h2>
+                        </div>
+                    </a>
                     </figure>
                 </div>
 
