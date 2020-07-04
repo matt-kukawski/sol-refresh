@@ -1,0 +1,15 @@
+#about {
+    display: flex;
+    .top6Div {
+        // max-width: 1000px;
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        .card {
+            background: none;
+            // min-width: 300px;
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}

@@ -26,7 +26,6 @@
   }
 }
 
-
 .main-container {
     // position: relative;
     // clear: left;
@@ -121,12 +120,51 @@ $input-shadow: none;
     }
 }
 
+// #about {
+//   font-family: 'Press Start 2P', cursive;
+//   text-shadow: 0 0 3px $primary-shadow, 2px 5px 5px $primary-shadow, 2px 5px 5px $primary-shadow, 0 0 3px $primary-shadow;
+//   h1 {
+//     font-family: "ArgonRegular";
+//     font-size: 72px;
+//   }
+//   h2 {
+//     font-family: "ArgonRegular";
+//     font-size: 72px;
+//   }
+//   .subtitle {
+//     background-image: url("../images/projects/header stretched.png");
+//     width: 1200px;
+//     height: 300px;
+//     padding-top: 100px;
+//   }
+// }
+
+.stock-back {
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 0 0 3px $primary-shadow, 2px 5px 5px $primary-shadow, 2px 5px 5px $primary-shadow, 0 0 3px $primary-shadow;
+  display: flex;
+  h1 {
+    font-family: "ArgonRegular";
+    font-size: 72px;
+  }
+  h2 {
+    font-family: "ArgonRegular";
+    font-size: 72px;
+  }
+  .subtitle {
+    background-image: url("../images/projects/header stretched.png");
+    width: 1200px;
+    height: 300px;
+    padding-top: 100px;
+  }
+}
+
 .stock-back {
   // background-image: url("../images/fractal-1433818_1920.jpg");
   // background-size: cover;
   // background-color: rgba(255, 255, 255, 0.1);
   // background: rgba(76, 175, 80, 0.1);
-  display: flex;
+  
 }
 
 .contact-parent {
@@ -140,6 +178,8 @@ $input-shadow: none;
 }
 
 
+
+
 @import '../../node_modules/bulma/sass/utilities/_all.sass';
 @import '../../node_modules/bulma/sass/base/_all.sass';
 @import '../../node_modules/bulma/sass/elements/button.sass';
@@ -151,3 +191,4 @@ $input-shadow: none;
 @import '../../node_modules/bulma/sass/layout/section.sass';
 @import '../../node_modules/bulma/sass/elements/notification.sass';
 @import '../../node_modules/bulma/sass/helpers/_all.sass';
+@import '../../node_modules/bulma/sass/components/card.sass';
