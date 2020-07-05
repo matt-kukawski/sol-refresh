@@ -22,20 +22,24 @@ function About() {
                         <Card 
                             imgSrc={require('images/projects/about_test4.png')}
                             altText="tech top 5"
+                            addOns=""
                         />
                         <div>
                             <Card 
                                 imgSrc={require('images/projects/about_test5_half.png')}
                                 altText="life top 5"
+                                addOns=""
                             />
                             <Card 
                                 imgSrc={require('images/projects/about_test4_half.png')}
                                 altText="tech top 5"
+                                addOns=""
                             />
                         </div>
                         <Card 
                             imgSrc={require('images/projects/about_test5.png')}
                             altText="life top 5"
+                            addOns=""
                         />
 
                     </div>

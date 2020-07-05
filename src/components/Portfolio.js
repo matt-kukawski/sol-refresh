@@ -1,6 +1,7 @@
 import React from 'react';
 import Section from 'components/Section';
 import Card from 'components/Card';
+import PortfolioHover from './PortfolioHover';
 // import {scrollStyleChange} from 'js/scrollStyleChange.js'
 // import {Helmet} from "react-helmet";
 
@@ -19,22 +20,41 @@ function Portfolio() {
                     <Card
                         imgSrc={require('images/projects/mtg_1201-944.png')}
                         altText="alt text 1"
-                        destination="https://mtg-deck-builder-mk.herokuapp.com/"  
+                      
+                        addOns={
+                            <PortfolioHover 
+                                destination="https://mtg-deck-builder-mk.herokuapp.com/" 
+                            />
+                        }
                     ></Card>  
                     <Card 
                         imgSrc={require('images/projects/streetshare_1201.png')} 
                         altText="alt text 2" 
-                        destination="http://www.streetshare.club/"   
+                       
+                        addOns={
+                            <PortfolioHover 
+                                destination="http://www.streetshare.club/" 
+                            />
+                        }  
                     ></Card> 
                     <Card  
                         imgSrc={require('images/projects/monstrous-mates-940.png')} 
                         altText="alt text 3" 
-                        destination="https://monstrous-mates.herokuapp.com/"   
+                        
+                        addOns={
+                            <PortfolioHover 
+                                destination="https://monstrous-mates.herokuapp.com/"  
+                            />
+                        }  
                     ></Card>  
                     <Card 
                         imgSrc={require('images/projects/sol-quiz_1200.png')} 
                         altText="alt text 4"
-                        destination="http://www.sonoflilith.com/quiz_prepositions.php"    
+                        addOns={
+                            <PortfolioHover 
+                                destination="http://www.sonoflilith.com/quiz_prepositions.php" 
+                            />
+                        }    
                     ></Card>  
                 </div>            
             } 
