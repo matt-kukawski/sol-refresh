@@ -6,7 +6,7 @@ function Card(props) {
             <div className="card">
                 <div className="card-image">
                     <figure className="image is-4by3">
-                    <img src={props.imgSrc} alt={props.altText} />
+                    <img className={props.imgClass} src={props.imgSrc} alt={props.altText} />
                     {props.addOns}
                     </figure>
                 </div>

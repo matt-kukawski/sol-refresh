@@ -26,14 +26,16 @@ function About() {
                         />
                         <div>
                             <Card 
-                                imgSrc={require('images/projects/about_test5_half.png')}
-                                altText="life top 5"
-                                addOns=""
-                            />
-                            <Card 
-                                imgSrc={require('images/projects/about_test4_half.png')}
+                                imgSrc={require('images/projects/planet_blue.png')}
                                 altText="tech top 5"
                                 addOns=""
+                                imgClass="planet-pink"
+                            />
+                            <Card 
+                                imgSrc={require('images/projects/planet_blue.png')}
+                                altText="life top 5"
+                                addOns=""
+                                imgClass="planet-blue"
                             />
                         </div>
                         <Card 

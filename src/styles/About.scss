@@ -11,5 +11,19 @@
             display: flex;
             flex-direction: row;
         }
+        div > .card .card-image {
+            border: none;
+            box-shadow: none;
+        }
+        .planet-pink {
+            // border: 1px solid $primary-shadow;
+            box-shadow: 0 0 3px $primary-shadow, 2px 5px 5px $primary-shadow, 2px 5px 5px $primary-shadow, 0 0 3px $primary-shadow;
+            border-radius: 50%;
+        }
+        .planet-blue {
+            // border: 1px solid $primary-shadow;
+            box-shadow: 0 0 3px $primary-text, 2px 5px 5px $primary-text, 2px 5px 5px $primary-text, 0 0 3px $primary-text;
+            border-radius: 50%;
+        }
     }
 }

@@ -10,7 +10,7 @@ function Contact() {
             id="contact" 
             title=""
             sectionClass="hero is-fullheight stock-back"
-            divClass="hero-body center" 
+            divClass="hero-body top" 
             h1Class="title center has-text-warning"
             h2Class="subtitle center has-text-warning"
             h2Text="Contact"
