@@ -20,41 +20,46 @@ function Portfolio() {
                     <Card
                         imgSrc={require('images/projects/mtg_1201-944.png')}
                         altText="alt text 1"
-                      
+                        cardClasses="card"
                         addOns={
                             <PortfolioHover 
                                 destination="https://mtg-deck-builder-mk.herokuapp.com/" 
                             />
                         }
+                        cardImgClass="card-image"
                     ></Card>  
                     <Card 
                         imgSrc={require('images/projects/streetshare_1201.png')} 
                         altText="alt text 2" 
-                       
+                        cardClasses="card"
                         addOns={
                             <PortfolioHover 
                                 destination="http://www.streetshare.club/" 
                             />
                         }  
+                        cardImgClass="card-image"
                     ></Card> 
                     <Card  
                         imgSrc={require('images/projects/monstrous-mates-940.png')} 
                         altText="alt text 3" 
-                        
+                        cardClasses="card"
                         addOns={
                             <PortfolioHover 
                                 destination="https://monstrous-mates.herokuapp.com/"  
                             />
                         }  
+                        cardImgClass="card-image"
                     ></Card>  
                     <Card 
                         imgSrc={require('images/projects/sol-quiz_1200.png')} 
                         altText="alt text 4"
+                        cardClasses="card"
                         addOns={
                             <PortfolioHover 
                                 destination="http://www.sonoflilith.com/quiz_prepositions.php" 
                             />
-                        }    
+                        }   
+                        cardImgClass="card-image" 
                     ></Card>  
                 </div>            
             } 

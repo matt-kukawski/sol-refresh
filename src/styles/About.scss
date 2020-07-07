@@ -1,5 +1,8 @@
 #about {
     display: flex;
+    .about-tall {
+        max-width: 450px;
+    }
     .top6Div {
         // max-width: 1000px;
         width: 100%;
@@ -15,15 +18,28 @@
             border: none;
             box-shadow: none;
         }
-        .planet-pink {
-            // border: 1px solid $primary-shadow;
+        .box-pink {
+            border: 1px solid $primary-text;
             box-shadow: 0 0 3px $primary-shadow, 2px 5px 5px $primary-shadow, 2px 5px 5px $primary-shadow, 0 0 3px $primary-shadow;
-            border-radius: 50%;
+            // border-radius: 50%;
         }
-        .planet-blue {
-            // border: 1px solid $primary-shadow;
+        .box-blue {
+            border: 1px solid $primary-shadow;
             box-shadow: 0 0 3px $primary-text, 2px 5px 5px $primary-text, 2px 5px 5px $primary-text, 0 0 3px $primary-text;
-            border-radius: 50%;
+            // border-radius: 50%;
+        }
+        .card-image {
+            // border: 1px solid $primary-shadow;
+            // box-shadow: 0 0 3px $primary-text, 2px 5px 5px $primary-text, 2px 5px 5px $primary-text, 0 0 3px $primary-text;
+            margin: 10px;
+            .image {
+                width:100%;
+                height:100%;
+                img {
+                    width:100%;
+                    height:100%;
+                }
+            }
         }
     }
 }

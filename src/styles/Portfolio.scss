@@ -10,21 +10,22 @@
         display: flex;
         flex-direction: row;
     }
-}
-
-.card-image {
-    border: 1px solid $primary-shadow;
-    box-shadow: 0 0 3px $primary-text, 2px 5px 5px $primary-text, 2px 5px 5px $primary-text, 0 0 3px $primary-text;
-    margin: 10px;
-    .image {
-        width:100%;
-        height:100%;
-        img {
+    .card-image {
+        border: 1px solid $primary-shadow;
+        box-shadow: 0 0 3px $primary-text, 2px 5px 5px $primary-text, 2px 5px 5px $primary-text, 0 0 3px $primary-text;
+        margin: 10px;
+        .image {
             width:100%;
             height:100%;
+            img {
+                width:100%;
+                height:100%;
+            }
         }
     }
 }
+
+
 
 #portfolio {
     .middle {

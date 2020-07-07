@@ -13,7 +13,7 @@ function Particle(props) {
               }
             },
             "color": {
-              "value": "#77BFF1"
+              "value": '#fff' //"#77BFF1"
             },
             "shape": {
               "type": "circle",
@@ -59,7 +59,7 @@ function Particle(props) {
             },
             "move": {
               "enable": true,
-              "speed": 0.2,
+              "speed": 0.4,
               "direction": "none",
               "random": true,
               "straight": false,
