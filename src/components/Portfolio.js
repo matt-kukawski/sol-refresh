@@ -23,7 +23,8 @@ function Portfolio() {
                         cardClasses="card"
                         addOns={
                             <PortfolioHover 
-                                destination="https://mtg-deck-builder-mk.herokuapp.com/" 
+                                destination="https://mtg-deck-builder-mk.herokuapp.com/"
+                                text="A JavaScript deck builder (incl. mana curve visualization) for 'Magic: The Gathering' utilising the MTG API" 
                             />
                         }
                         cardImgClass="card-image"
@@ -34,7 +35,8 @@ function Portfolio() {
                         cardClasses="card"
                         addOns={
                             <PortfolioHover 
-                                destination="http://www.streetshare.club/" 
+                                destination="http://www.streetshare.club/"
+                                text="A Ruby/Rails app with full backend and frontend functionality created at Le Wagon with a team of three others" 
                             />
                         }  
                         cardImgClass="card-image"
@@ -45,7 +47,8 @@ function Portfolio() {
                         cardClasses="card"
                         addOns={
                             <PortfolioHover 
-                                destination="https://monstrous-mates.herokuapp.com/"  
+                                destination="https://monstrous-mates.herokuapp.com/" 
+                                text="A React based app utilising API calls as well as search and filtering" 
                             />
                         }  
                         cardImgClass="card-image"
@@ -57,9 +60,10 @@ function Portfolio() {
                         addOns={
                             <PortfolioHover 
                                 destination="http://www.sonoflilith.com/quiz_prepositions.php" 
+                                text="An interactive JavaScript quiz to help students learning English"
                             />
                         }   
-                        cardImgClass="card-image" 
+                        cardImgClass="card-image port-hover" 
                     ></Card>  
                 </div>            
             } 

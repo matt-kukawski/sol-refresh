@@ -36,7 +36,7 @@ function About() {
                                 cardImgClass="card-image"
                             />
                             <Card 
-                                imgSrc={require('images/projects/pink_half.png')}
+                                imgSrc={require('images/projects/pink_half2.png')}
                                 altText="life top 5"
                                 addOns=""
                                 imgClass="box-blue"
