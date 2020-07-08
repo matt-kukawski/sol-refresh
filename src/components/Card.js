@@ -3,15 +3,11 @@ import React from 'react';
 function Card(props) {
     return (
 
-            <div className="card">
-                <div className="card-image">
+            <div className={props.cardClasses}>
+                <div className={props.cardImgClass}>
                     <figure className="image is-4by3">
-                    <img src={props.imgSrc} alt={props.altText} />
-                    <a href={props.destination}>
-                        <div class="middle">
-                            <h2 class="text">LEARN MORE</h2>
-                        </div>
-                    </a>
+                    <img className={props.imgClass} src={props.imgSrc} alt={props.altText} />
+                    {props.addOns}
                     </figure>
                 </div>
 

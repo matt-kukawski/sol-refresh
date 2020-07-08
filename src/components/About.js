@@ -20,22 +20,36 @@ function About() {
                     <div className="top6Div">
 
                         <Card 
-                            imgSrc={require('images/projects/about_test4.png')}
+                            imgSrc={require('images/projects/pink_large.png')}
                             altText="tech top 5"
+                            addOns=""
+                            cardClasses="card about-tall"
+                            cardImgClass="card-image box-blue"
                         />
                         <div>
                             <Card 
-                                imgSrc={require('images/projects/about_test5_half.png')}
-                                altText="life top 5"
+                                imgSrc={require('images/projects/blue_half.png')}
+                                altText="tech top 5"
+                                addOns=""
+                                imgClass="box-pink"
+                                cardClasses="card"
+                                cardImgClass="card-image"
                             />
                             <Card 
-                                imgSrc={require('images/projects/about_test4_half.png')}
-                                altText="tech top 5"
+                                imgSrc={require('images/projects/pink_half2.png')}
+                                altText="life top 5"
+                                addOns=""
+                                imgClass="box-blue"
+                                cardClasses="card"
+                                cardImgClass="card-image"
                             />
                         </div>
                         <Card 
-                            imgSrc={require('images/projects/about_test5.png')}
+                            imgSrc={require('images/projects/blue_large.png')}
                             altText="life top 5"
+                            addOns=""
+                            cardClasses="card about-tall"
+                            cardImgClass="card-image box-pink"
                         />
 
                     </div>
