@@ -24,8 +24,9 @@ function App() {
               sectionClass="hero is-fullheight"
               divClass="hero-body center" 
               h1Class="title center has-text-warning"
-              h2Class="has-text-warning"
+              h2Class="subtitle has-text-warning"
               h2Text="Front End Developer"
+              headerCont="header-cont"
             >
             </Section>
             <About>
@@ -35,10 +36,6 @@ function App() {
             <Portfolio>
             
             </Portfolio>
-
-            <Contact>
-            
-            </Contact>
           </div> 
         </div>
     </div>

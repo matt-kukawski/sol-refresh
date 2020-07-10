@@ -2,14 +2,17 @@ import React from 'react';
 
 function NavBar() {
     const [isActive, setisActive] = React.useState(false);
+    const burgerChange = () => {
+      setisActive(!isActive);
+    }
 
   return (
     <nav className="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a
-            onClick={() => {
-              setisActive(!isActive);
-            }}
+            onClick={
+              burgerChange
+            }
             role="button"
             className={`navbar-burger burger is-primary ${isActive ? "is-active" : ""}`}
             aria-label="menu"
@@ -27,25 +30,46 @@ function NavBar() {
         >
 
             <div className="navbar-start">
-                <a href="http://localhost:3000/#intro" className="navbar-item">
-                    Home
+                <a 
+                  onClick={
+                    burgerChange
+                  }
+                  href="http://localhost:3000/#intro" className="navbar-item">
+                    HOME
                 </a>
-                <a href="http://localhost:3000/#about" className="navbar-item">
-                    About
+                <a 
+                  onClick={
+                    burgerChange
+                  }
+                  href="http://localhost:3000/#about" className="navbar-item">
+                    ABOUT
                 </a>
-                <a href="http://localhost:3000/#portfolio" className="navbar-item">
-                    Portfolio
-                </a>
-
-                <a href="http://localhost:3000/#contact" className="navbar-item">
-                    Contact
+                <a 
+                  onClick={
+                    burgerChange
+                  }
+                  href="http://localhost:3000/#portfolio" className="navbar-item">
+                    PORTFOLIO
                 </a>
             </div>
 
             <div className="navbar-end is-primary">
-                <div className="navbar-item is-primary">
- 
-                </div>
+
+                  <a href="https://github.com/matt-kukawski" alt="GitHub">
+                      <img className="contact-icon" src={require('images/projects/github-logo.png')} />
+                  </a>
+                  <a href="https://www.linkedin.com/in/mattkukawski/" alt="LinkedIn">
+                      <img className="contact-icon" src={require('images/projects/linkedin-logo.png')} />
+                  </a>
+                  <a 
+                    onClick={
+                      burgerChange
+                    }
+                    href="mailto:mail@sonoflilith.com" 
+                    alt="Email"
+                  >
+                    <img className="contact-icon" src={require('images/projects/email-logo.png')} />
+                  </a>
             </div>
         </div>
     </nav>
