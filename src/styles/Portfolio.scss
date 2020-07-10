@@ -49,8 +49,8 @@
         font-family: arial;
         color: $primary-shadow;
         // width: 80%;
-        @include mobile {
-            display: none;
+        @media (max-width: $breakpoint-mobile) {
+            display: none;         
         }
     }
     .learn-more-btn {
@@ -79,6 +79,11 @@
         //     font-size: 10px;
         //     padding: 5px;
         // }
+        @media (max-width: $breakpoint-mobile) {
+            font-size: 24px; 
+            padding: 0; 
+            width: 70%; 
+        }
     }
     
       .card-image:hover .image {

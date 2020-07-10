@@ -28,7 +28,7 @@ function About() {
                         />
                         <div>
                             <Card 
-                                imgSrc={require('images/projects/blue_half.png')}
+                                imgSrc={require('images/projects/blue_half_no_photo.png')}
                                 altText="tech top 5"
                                 addOns=""
                                 imgClass="box-pink"
@@ -36,7 +36,7 @@ function About() {
                                 cardImgClass="card-image"
                             />
                             <Card 
-                                imgSrc={require('images/projects/pink_half2.png')}
+                                imgSrc={require('images/projects/pink_half3.png')}
                                 altText="life top 5"
                                 addOns=""
                                 imgClass="box-blue"
