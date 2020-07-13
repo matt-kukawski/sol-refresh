@@ -1,8 +1,3 @@
-// @font-face {
-//   font-family: 'StarJediHollow-A4lL';
-//   src: local('StarJediHollow-A4lL'), url(/src/fonts/star-jedi-font/StarJediHollow-A4lL.ttf) format('truetype');
-// }
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,21 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  // background-color: $primary-purple;
-  // height: 100%;
-  // width: 100%;
-  // background-color: $primary;
-  // background-image: url("../images/blue-planet_1920.jpg");
-  // background-color: $primary;
-
-  // background-image: url("../images/../images/fractal-1433818_1920.jpg");
-
   background-image: url("../images/fractal-669722_1280.jpg");
-
-  // background-image: url("../images/abstract-3293076.jpg");
-
-  // background-image: url("../images/astronomy-3187445_1920.jpg");
-
   background-size: cover;
   background-attachment: fixed;
 }
@@ -33,9 +14,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-#root {
-  // height: 100%;
-  // width: 100%;
-}
-

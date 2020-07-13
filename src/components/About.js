@@ -1,9 +1,6 @@
 import React from 'react';
 import Section from 'components/Section';
 import Card from 'components/Card';
-// import Notification from 'components/Notification';
-// import {scrollStyleChange} from 'js/scrollStyleChange.js'
-// import {Helmet} from "react-helmet";
 
 function About() {
     return (

@@ -1,14 +1,7 @@
 .navbar {
-    // position: fixed;
-    // top: 0;
-    // left: 0;
-    // width: 100%;
-    // background-color: $primary-text;
     opacity: 0.8;
-    // height: 100px;
 
     .contact-icon {
-        // text-align: center;
         padding: 10px 10px 0 0;
         height: 50px;
         width: 50px;
@@ -16,11 +9,9 @@
         margin: 5px 10px 10px 0;
     }
     
-
     .navbar-item {
         background-color: $primary-text;
         font-weight: 900;
-        // line-height: 80px;
     }
     .navbar-item:hover {
         background-color: $primary-text;
@@ -35,5 +26,3 @@
 
 
 }
-
-// $navbar-item-hover-background-color: $primary-text;
