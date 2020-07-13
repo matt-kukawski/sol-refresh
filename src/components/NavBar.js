@@ -7,7 +7,7 @@ function NavBar() {
     }
 
   return (
-    <nav className="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
+    <nav className="navbar is-fixed-top is-primary has-text-black" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a
             onClick={
@@ -28,7 +28,6 @@ function NavBar() {
           id="navbarBasicExample"
           className={`navbar-menu ${isActive ? "is-active" : ""}`} 
         >
-
             <div className="navbar-start">
                 <a 
                   onClick={
@@ -56,10 +55,10 @@ function NavBar() {
             <div className="navbar-end is-primary">
 
                   <a href="https://github.com/matt-kukawski" alt="GitHub">
-                      <img className="contact-icon" src={require('images/projects/github-logo.png')} />
+                      <img className="contact-icon" src={require('images/projects/github-logo.png')} alt="GitHub" />
                   </a>
                   <a href="https://www.linkedin.com/in/mattkukawski/" alt="LinkedIn">
-                      <img className="contact-icon" src={require('images/projects/linkedin-logo.png')} />
+                      <img className="contact-icon" src={require('images/projects/linkedin-logo.png')} alt="LinkedIn" />
                   </a>
                   <a 
                     onClick={
@@ -68,7 +67,7 @@ function NavBar() {
                     href="mailto:mail@sonoflilith.com" 
                     alt="Email"
                   >
-                    <img className="contact-icon" src={require('images/projects/email-logo.png')} />
+                    <img className="contact-icon" src={require('images/projects/email-logo.png')} alt="Email" />
                   </a>
             </div>
         </div>

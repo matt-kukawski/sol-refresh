@@ -3,6 +3,14 @@
     .about-tall {
         max-width: 450px;
     }
+    @media (max-width: $breakpoint-center) {
+        .card {
+            margin:0 auto;
+        }
+        .about-small {
+            margin:0 auto;
+        }
+    }
     .top6Div {
         // max-width: 1000px;
         width: 100%;
