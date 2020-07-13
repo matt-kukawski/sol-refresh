@@ -2,8 +2,6 @@ import React from 'react';
 import Section from 'components/Section';
 import Card from 'components/Card';
 import PortfolioHover from './PortfolioHover';
-// import {scrollStyleChange} from 'js/scrollStyleChange.js'
-// import {Helmet} from "react-helmet";
 
 function Portfolio() {
     return (
@@ -74,31 +72,3 @@ function Portfolio() {
 
 export default Portfolio;
 
-// <Notification
-// notificationClass="notification has-background-warning"
-// child={<Project 
-//     imgSrc={require('images/projects/mtg_deck_builder_940.png')} 
-// />}
-// >                        
-// </Notification>
-// <Notification
-// notificationClass="notification has-background-warning"
-// child={<Project 
-//     imgSrc={require('images/projects/streetshare-940.png')} 
-// />}
-// >                        
-// </Notification>
-// <Notification
-// notificationClass="notification has-background-warning"
-// child={<Project 
-//     imgSrc={require('images/projects/monstrous-mates-940.png')} 
-// />}
-// >                        
-// </Notification>
-// <Notification
-// notificationClass="notification has-background-warning"
-// child={<Project 
-//     imgSrc={require('images/projects/salicylate_checker_940.png')} 
-// />}
-// >                        
-// </Notification>

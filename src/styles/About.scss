@@ -12,13 +12,11 @@
         }
     }
     .top6Div {
-        // max-width: 1000px;
         width: 100%;
         flex-wrap: wrap;
         display: flex;
         .card {
             background: none;
-            // min-width: 300px;
             display: flex;
             flex-direction: row;
         }
@@ -29,16 +27,13 @@
         .box-pink {
             border: 1px solid $primary-text;
             box-shadow: 0 0 3px $primary-shadow, 2px 5px 5px $primary-shadow, 2px 5px 5px $primary-shadow, 0 0 3px $primary-shadow;
-            // border-radius: 50%;
+
         }
         .box-blue {
             border: 1px solid $primary-shadow;
             box-shadow: 0 0 3px $primary-text, 2px 5px 5px $primary-text, 2px 5px 5px $primary-text, 0 0 3px $primary-text;
-            // border-radius: 50%;
         }
         .card-image {
-            // border: 1px solid $primary-shadow;
-            // box-shadow: 0 0 3px $primary-text, 2px 5px 5px $primary-text, 2px 5px 5px $primary-text, 0 0 3px $primary-text;
             margin: 10px;
             .image {
                 width:100%;
