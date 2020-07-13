@@ -28,6 +28,12 @@
 
 
 #portfolio {
+    @media (max-width: $breakpoint-center) {
+        .card {
+            margin:0 auto;
+        }
+    }
+
     .hover-cont {
         width: 100%;
 
@@ -84,6 +90,7 @@
             padding: 0; 
             width: 70%; 
         }
+
     }
     
       .card-image:hover .image {

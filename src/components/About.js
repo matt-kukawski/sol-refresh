@@ -26,7 +26,7 @@ function About() {
                             cardClasses="card about-tall"
                             cardImgClass="card-image box-blue"
                         />
-                        <div>
+                        <div className="about-small">
                             <Card 
                                 imgSrc={require('images/projects/blue_half_no_photo.png')}
                                 altText="tech top 5"
