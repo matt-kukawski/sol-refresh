@@ -33,21 +33,21 @@ function NavBar() {
                   onClick={
                     burgerChange
                   }
-                  href="http://localhost:3000/#intro" className="navbar-item">
+                  href="https://matt-kukawski.herokuapp.com/#intro" className="navbar-item">
                     HOME
                 </a>
                 <a 
                   onClick={
                     burgerChange
                   }
-                  href="http://localhost:3000/#about" className="navbar-item">
+                  href="https://matt-kukawski.herokuapp.com/#about" className="navbar-item">
                     ABOUT
                 </a>
                 <a 
                   onClick={
                     burgerChange
                   }
-                  href="http://localhost:3000/#portfolio" className="navbar-item">
+                  href="https://matt-kukawski.herokuapp.com/#portfolio" className="navbar-item">
                     PORTFOLIO
                 </a>
             </div>
