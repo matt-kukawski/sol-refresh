@@ -48,17 +48,32 @@ $breakpoint-center: 1260px;
 }
 
 #intro {
-    font-family: 'Press Start 2P', cursive;
+    @keyframes fadeInAnimation { 
+        0% { 
+            opacity: 0; 
+        } 
+        100% { 
+            opacity: 1; 
+        } 
+    } 
+    font-family: "ArgonRegular";
+    // font-family: 'Press Start 2P', cursive;
     text-shadow: 0 0 3px $primary-shadow, 2px 5px 5px $primary-shadow, 2px 5px 5px $primary-shadow, 0 0 3px $primary-shadow;
-    h1 {
-      font-family: "ArgonRegular";
+    h1 {  
+      animation: fadeInAnimation ease 2s; 
+      animation-iteration-count: 1; 
+      animation-fill-mode: forwards; 
+
       font-size: 96px;
       @media (max-width: $breakpoint-mobile) {
         font-size: 48px;
       }
     }
     h2 {
-      font-family: "ArgonRegular";
+      animation: fadeInAnimation ease 3s; 
+      animation-iteration-count: 1; 
+      animation-fill-mode: forwards; 
+
       font-size: 72px;
       @media (max-width: $breakpoint-mobile) {
         font-size: 36px;
