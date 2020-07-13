@@ -60,7 +60,7 @@ $breakpoint-center: 1260px;
     // font-family: 'Press Start 2P', cursive;
     text-shadow: 0 0 3px $primary-shadow, 2px 5px 5px $primary-shadow, 2px 5px 5px $primary-shadow, 0 0 3px $primary-shadow;
     h1 {  
-      animation: fadeInAnimation ease 2s; 
+      animation: fadeInAnimation ease 3s; 
       animation-iteration-count: 1; 
       animation-fill-mode: forwards; 
 
@@ -70,7 +70,7 @@ $breakpoint-center: 1260px;
       }
     }
     h2 {
-      animation: fadeInAnimation ease 3s; 
+      animation: fadeInAnimation ease 4s; 
       animation-iteration-count: 1; 
       animation-fill-mode: forwards; 
 
