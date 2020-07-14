@@ -25,7 +25,7 @@ function About() {
                         />
                         <div className="about-small">
                             <Card 
-                                imgSrc={require('images/projects/blue_half_no_photo.png')}
+                                imgSrc={require('images/projects/blue_half2.png')}
                                 altText="tech top 5"
                                 addOns=""
                                 imgClass="box-pink"
