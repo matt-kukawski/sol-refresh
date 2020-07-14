@@ -5,3 +5,4 @@ A refresh of my portfolio website (incl. other portfolio links) using:
   - Bulma
   - Sass
   - Particle JS
+  - published using Express & Heroku
