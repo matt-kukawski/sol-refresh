@@ -6,17 +6,17 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "bulma": "^0.9.0",
+    "bulma-start": "0.0.4",
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
     "heroku": "^7.35.0",
-    "path": "^0.12.7",
-    "bulma": "^0.9.0",
-    "bulma-start": "0.0.4",
     "node-sass": "^4.14.1",
+    "path": "^0.12.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "4.0.3",
-    "react-tsparticles": "^1.16.1"
+    "react-tsparticles": "^1.34.0"
   },
   "scripts": {
     "start": "node server.js",
