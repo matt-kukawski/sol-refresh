@@ -1,5 +1,5 @@
 // Updated Bulma's variables
-$family-sans-serif: 'Nunito', sans-serif;
+$family-sans-serif: "Nunito", sans-serif;
 
 $widescreen-enabled: false;
 $fullhd-enabled: false;
@@ -31,7 +31,7 @@ $breakpoint-center: 1260px;
   .particle {
     background-color: none;
     position: absolute;
-    top: 0px; 
+    top: 0px;
     left: 0px;
     width: 100%;
   }
@@ -48,43 +48,44 @@ $breakpoint-center: 1260px;
 }
 
 #intro {
-    @keyframes fadeInAnimation { 
-        0% { 
-            opacity: 0; 
-        } 
-        100% { 
-            opacity: 1; 
-        } 
-    } 
-    font-family: "ArgonRegular";
-    // font-family: 'Press Start 2P', cursive;
-    text-shadow: 0 0 3px $primary-shadow, 2px 5px 5px $primary-shadow, 2px 5px 5px $primary-shadow, 0 0 3px $primary-shadow;
-    h1 {  
-      animation: fadeInAnimation ease 3s; 
-      animation-iteration-count: 1; 
-      animation-fill-mode: forwards; 
-
-      font-size: 96px;
-      @media (max-width: $breakpoint-mobile) {
-        font-size: 48px;
-      }
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
     }
-    h2 {
-      animation: fadeInAnimation ease 4s; 
-      animation-iteration-count: 1; 
-      animation-fill-mode: forwards; 
-
-      font-size: 72px;
-      @media (max-width: $breakpoint-mobile) {
-        font-size: 36px;
-      }
+    100% {
+      opacity: 1;
     }
+  }
+  font-family: "ArgonRegular";
+  // font-family: 'Press Start 2P', cursive;
+  text-shadow: 0 0 3px $primary-shadow, 2px 5px 5px $primary-shadow,
+    2px 5px 5px $primary-shadow, 0 0 3px $primary-shadow;
+  h1 {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    font-size: 96px;
+    @media (max-width: $breakpoint-mobile) {
+      font-size: 48px;
+    }
+  }
+  h2 {
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    font-size: 72px;
+    @media (max-width: $breakpoint-mobile) {
+      font-size: 36px;
+    }
+  }
 }
 
 .header-cont {
   @media (max-width: $breakpoint-mobile) {
     padding: 30px;
-    background-image: url('../images/projects/blue-bkg.png');
+    background-image: url("../images/projects/blue-bkg.png");
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center;
@@ -93,8 +94,9 @@ $breakpoint-center: 1260px;
 }
 
 .stock-back {
-  font-family: 'Press Start 2P', cursive;
-  text-shadow: 0 0 3px $primary-shadow, 2px 5px 5px $primary-shadow, 2px 5px 5px $primary-shadow, 0 0 3px $primary-shadow;
+  font-family: "Press Start 2P", cursive;
+  text-shadow: 0 0 3px $primary-shadow, 2px 5px 5px $primary-shadow,
+    2px 5px 5px $primary-shadow, 0 0 3px $primary-shadow;
   display: flex;
   h1 {
     font-family: "ArgonRegular";
@@ -111,25 +113,25 @@ $breakpoint-center: 1260px;
 }
 
 .contact-parent {
+  display: flex;
+  width: 600px;
+  justify-content: space-around;
+  .contact {
     display: flex;
-    width: 600px;
-    justify-content: space-around;
-    .contact {
-        display: flex;
-        flex-direction: row;
-    }
+    flex-direction: row;
+  }
 }
 
 // Bulma imports
-@import '../../node_modules/bulma/sass/utilities/_all.sass';
-@import '../../node_modules/bulma/sass/base/_all.sass';
-@import '../../node_modules/bulma/sass/elements/button.sass';
-@import '../../node_modules/bulma/sass/elements/container.sass';
-@import '../../node_modules/bulma/sass/elements/form.sass';
-@import '../../node_modules/bulma/sass/elements/title.sass';
-@import '../../node_modules/bulma/sass/components/navbar.sass';
-@import '../../node_modules/bulma/sass/layout/hero.sass';
-@import '../../node_modules/bulma/sass/layout/section.sass';
-@import '../../node_modules/bulma/sass/elements/notification.sass';
-@import '../../node_modules/bulma/sass/helpers/_all.sass';
-@import '../../node_modules/bulma/sass/components/card.sass';
+@import "../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../node_modules/bulma/sass/base/_all.sass";
+@import "../../node_modules/bulma/sass/elements/button.sass";
+@import "../../node_modules/bulma/sass/elements/container.sass";
+@import "../../node_modules/bulma/sass/form/_all";
+@import "../../node_modules/bulma/sass/elements/title.sass";
+@import "../../node_modules/bulma/sass/components/navbar.sass";
+@import "../../node_modules/bulma/sass/layout/hero.sass";
+@import "../../node_modules/bulma/sass/layout/section.sass";
+@import "../../node_modules/bulma/sass/elements/notification.sass";
+@import "../../node_modules/bulma/sass/helpers/_all.sass";
+@import "../../node_modules/bulma/sass/components/card.sass";
