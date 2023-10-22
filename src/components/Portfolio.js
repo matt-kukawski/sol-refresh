@@ -28,6 +28,18 @@ function Portfolio() {
             cardImgClass="card-image"
           ></Card>
           <Card
+            imgSrc={require("images/projects/sol-quiz_1200.png").default}
+            altText="alt text 4"
+            cardClasses="card"
+            addOns={
+              <PortfolioHover
+                destination="http://www.sonoflilith.com/quiz_prepositions.php"
+                text="An interactive JavaScript quiz to help students learning English"
+              />
+            }
+            cardImgClass="card-image port-hover"
+          ></Card>
+          <Card
             imgSrc={require("images/projects/streetshare_1201.png").default}
             altText="alt text 2"
             cardClasses="card"
@@ -50,18 +62,6 @@ function Portfolio() {
               />
             }
             cardImgClass="card-image"
-          ></Card>
-          <Card
-            imgSrc={require("images/projects/sol-quiz_1200.png").default}
-            altText="alt text 4"
-            cardClasses="card"
-            addOns={
-              <PortfolioHover
-                destination="http://www.sonoflilith.com/quiz_prepositions.php"
-                text="An interactive JavaScript quiz to help students learning English"
-              />
-            }
-            cardImgClass="card-image port-hover"
           ></Card>
         </div>
       }
