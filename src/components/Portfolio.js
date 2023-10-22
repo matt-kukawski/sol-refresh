@@ -45,7 +45,7 @@ function Portfolio() {
             cardClasses="card"
             addOns={
               <PortfolioHover
-                destination="http://www.streetshare.club/"
+                // destination="http://www.streetshare.club/"
                 text="A Ruby/Rails app with full backend and frontend functionality created at Le Wagon with a team of three others"
               />
             }
@@ -57,7 +57,7 @@ function Portfolio() {
             cardClasses="card"
             addOns={
               <PortfolioHover
-                destination="https://monstrous-mates.herokuapp.com/"
+                // destination="https://monstrous-mates.herokuapp.com/"
                 text="A React based app utilising API calls as well as search and filtering"
               />
             }
