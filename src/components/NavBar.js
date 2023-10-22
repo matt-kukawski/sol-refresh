@@ -35,21 +35,21 @@ function NavBar() {
         <div className="navbar-start">
           <a
             onClick={burgerChange}
-            href="https://matt-kukawski.herokuapp.com/#intro"
+            href="https://sol-refresh.onrender.com/#intro"
             className="navbar-item"
           >
             HOME
           </a>
           <a
             onClick={burgerChange}
-            href="https://matt-kukawski.herokuapp.com/#about"
+            href="https://sol-refresh.onrender.com/#about"
             className="navbar-item"
           >
             ABOUT
           </a>
           <a
             onClick={burgerChange}
-            href="https://matt-kukawski.herokuapp.com/#portfolio"
+            href="https://sol-refresh.onrender.com/#portfolio"
             className="navbar-item"
           >
             PORTFOLIO
