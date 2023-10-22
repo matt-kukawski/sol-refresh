@@ -21,7 +21,7 @@ function Portfolio() {
             cardClasses="card"
             addOns={
               <PortfolioHover
-                destination="https://mtg-deck-builder-mk.herokuapp.com/"
+                destination="https://mtg-deck-builder.onrender.com/"
                 text="A JavaScript deck builder (incl. mana curve visualization) for 'Magic: The Gathering' utilising the MTG API"
               />
             }
