@@ -46,7 +46,7 @@ function Portfolio() {
             addOns={
               <PortfolioHover
                 // destination="http://www.streetshare.club/"
-                text="A Ruby/Rails app with full backend and frontend functionality created at Le Wagon with a team of three others"
+                text="***DOWN FOR MAINTENANCE***"\n"A Ruby/Rails app with full backend and frontend functionality created at Le Wagon with a team of three others"
               />
             }
             cardImgClass="card-image"
